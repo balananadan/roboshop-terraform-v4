@@ -1,4 +1,4 @@
-module "db" {
+module "db"  {
   for_each       = var.db
   source         = "./module"
   component_name = each.key
