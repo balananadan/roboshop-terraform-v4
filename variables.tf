@@ -7,12 +7,12 @@ variable "rgname" {
 }
 
 variable "subnet_id" {
-  default = "/subscriptions/5d6d5b42-ee4c-46d9-aed6-49fd22f441fe/resourceGroups/pomegranate/providers/Microsoft.Network/virtualNetworks/Allow_all/subnets/default"
+  default = "/subscriptions/5d6d5b42-ee4c-46d9-aed6-49fd22f441fe/resourceGroups/kixoia/providers/Microsoft.Network/virtualNetworks/vnet-denmarkeast-1/subnets/snet-denmarkeast-1"
 
 }
 
 variable "image_id" {
-  default = "/subscriptions/5d6d5b42-ee4c-46d9-aed6-49fd22f441fe/resourceGroups/pomegranate/providers/Microsoft.Compute/galleries/Pomo/images/1.1.0/versions/1.1.0"
+  default = "/subscriptions/5d6d5b42-ee4c-46d9-aed6-49fd22f441fe/resourceGroups/kioxia/providers/Microsoft.Compute/galleries/pomo/images/1.2.0/versions/1.2.0"
 }
 
 variable "db" {
